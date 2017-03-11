@@ -12,6 +12,11 @@
 		33D815AC1E73D6C70065699D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D815AA1E73D6C70065699D /* Main.storyboard */; };
 		33D815AE1E73D6C70065699D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D815AD1E73D6C70065699D /* Assets.xcassets */; };
 		33D815B11E73D6C70065699D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D815AF1E73D6C70065699D /* LaunchScreen.storyboard */; };
+		33D815B91E73D9930065699D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D815B81E73D9930065699D /* LoginViewController.swift */; };
+		33D815BB1E73D9F20065699D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D815BA1E73D9F20065699D /* HomeViewController.swift */; };
+		33D815BD1E73DA410065699D /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D815BC1E73DA410065699D /* ImageSelectViewController.swift */; };
+		33D815BF1E73DA880065699D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D815BE1E73DA880065699D /* PostViewController.swift */; };
+		33D815C11E73DABE0065699D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D815C01E73DABE0065699D /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		33D815AD1E73D6C70065699D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D815B01E73D6C70065699D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D815B21E73D6C70065699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D815B81E73D9930065699D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33D815BA1E73D9F20065699D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		33D815BC1E73DA410065699D /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		33D815BE1E73DA880065699D /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		33D815C01E73DABE0065699D /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				33D815A61E73D6C70065699D /* AppDelegate.swift */,
 				33D815A81E73D6C70065699D /* ViewController.swift */,
 				33D815AA1E73D6C70065699D /* Main.storyboard */,
+				33D815C01E73DABE0065699D /* SettingViewController.swift */,
+				33D815BE1E73DA880065699D /* PostViewController.swift */,
+				33D815BC1E73DA410065699D /* ImageSelectViewController.swift */,
+				33D815BA1E73D9F20065699D /* HomeViewController.swift */,
+				33D815B81E73D9930065699D /* LoginViewController.swift */,
 				33D815AD1E73D6C70065699D /* Assets.xcassets */,
 				33D815AF1E73D6C70065699D /* LaunchScreen.storyboard */,
 				33D815B21E73D6C70065699D /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D815BF1E73DA880065699D /* PostViewController.swift in Sources */,
+				33D815B91E73D9930065699D /* LoginViewController.swift in Sources */,
 				33D815A91E73D6C70065699D /* ViewController.swift in Sources */,
 				33D815A71E73D6C70065699D /* AppDelegate.swift in Sources */,
+				33D815BD1E73DA410065699D /* ImageSelectViewController.swift in Sources */,
+				33D815C11E73DABE0065699D /* SettingViewController.swift in Sources */,
+				33D815BB1E73D9F20065699D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
